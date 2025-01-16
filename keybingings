@@ -52,4 +52,12 @@
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal",
     },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.sourceAction",
+        "args": {
+            "kind": "source.addMissingImport",
+            "apply": "first"
+        }
+    }
 ]
